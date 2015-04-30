@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableAutoConfiguration
 @ComponentScan
 @Configuration
-@EnableWebMvc
+//@EnableWebMvc
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {

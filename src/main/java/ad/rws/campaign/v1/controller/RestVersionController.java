@@ -16,7 +16,7 @@ public class RestVersionController {
     @ResponseStatus(HttpStatus.OK)
     @RequestMapping(value = "/version", method = RequestMethod.GET)
     public
-    @ResponseBody
+    //@ResponseBody
     ApiVersion getVersion() {
         return new ApiVersion(1);
     }
