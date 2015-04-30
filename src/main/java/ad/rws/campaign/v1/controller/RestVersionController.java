@@ -22,7 +22,7 @@ public class RestVersionController {
     }
 
     @JsonIgnoreProperties(ignoreUnknown = true)
-    @XmlRootElement
+    //@XmlRootElement
     public static class ApiVersion {
         int version;
         String currentVersion = "Current version is ";
