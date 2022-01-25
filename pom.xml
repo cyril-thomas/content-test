@@ -12,8 +12,8 @@
 
     <properties>
         <commons-lang-version>3.3.2</commons-lang-version>
-        <commons-io-version>2.4</commons-io-version>
-        <xstream.version>1.4.7</xstream.version>
+        <commons-io-version>2.11.0</commons-io-version>
+        <xstream.version>1.4.18</xstream.version>
     </properties>
 
     <parent>
